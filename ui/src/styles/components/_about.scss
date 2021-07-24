@@ -1,0 +1,52 @@
+.about {
+  font-size: 2rem;
+  max-width: 1000px;
+  margin: 25vh auto 100px auto;
+
+  &__title {
+    text-align: center;
+    margin-bottom: 30px;
+  }
+
+  &__personalDescription,
+  &__skillsDescription {
+    text-align: justify;
+    margin-bottom: 20px;
+  }
+
+  &__skillsDescription {
+    &__skill {
+      text-decoration: underline;
+      text-decoration-color: #4cc9f0;
+    }
+  }
+
+  &__skills {
+    background-color: white;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    border-radius: 5px;
+    padding: 10px;
+
+    &__skill {
+      height: 40px;
+    }
+  }
+
+  @media only screen and (max-width: 1000px) {
+    width: 90%;
+  }
+
+  @media only screen and (max-width: 600px) {
+    font-size: 1.5rem;
+
+    &__skills {
+      justify-content: space-between;
+
+      &__skill {
+        height: 20px;
+      }
+    }
+  }
+}
