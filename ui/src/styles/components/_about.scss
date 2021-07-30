@@ -8,17 +8,9 @@
     margin-bottom: 30px;
   }
 
-  &__personalDescription,
-  &__skillsDescription {
+  &__description {
     text-align: justify;
     margin-bottom: 20px;
-  }
-
-  &__skillsDescription {
-    &__skill {
-      text-decoration: underline;
-      text-decoration-color: #4cc9f0;
-    }
   }
 
   &__skills {

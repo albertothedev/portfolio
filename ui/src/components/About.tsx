@@ -15,19 +15,11 @@ const About = (): JSX.Element => (
   <div className="about">
     <h1 className="about__title">Nice to meet you!</h1>
 
-    <p className="about__personalDescription">
-      I'm an aspiring full stack TypeScript developer from Spain looking for a job and willing to relocate.
-    </p>
-
-    <p className="about__skillsDescription">
-      I like to build web applications using popular frontend frameworks such as <span className="about__skillsDescription__skill">React</span> and{" "}
-      <span className="about__skillsDescription__skill">Vue</span>, and <span className="about__skillsDescription__skill">Node</span> and{" "}
-      <span className="about__skillsDescription__skill">Express</span> for the backend, using{" "}
-      <span className="about__skillsDescription__skill">TypeScript</span> across the board. When a database is required, I like to use{" "}
-      <span className="about__skillsDescription__skill">MySQL</span> for relational data and{" "}
-      <span className="about__skillsDescription__skill">MongoDB</span> or <span className="about__skillsDescription__skill">Firebase</span> as
-      non-relational alternatives. I like to containerize all of my apps with <span className="about__skillsDescription__skill">Docker</span> to
-      simplify the development process. I deploy everything on <span className="about__skillsDescription__skill">AWS</span>.
+    <p className="about__description">
+      I'm a full-stack developer with a passion for learning new things. I build web applications using popular frontend frameworks such as React and
+      Vue, and Node and Express for the backend, with TypeScript across the board. When a database is required, I use MySQL for relational data and
+      MongoDB or Firebase as non-relational alternatives. I containerize all of my apps with Docker to simplify the development process and I deploy
+      everything on AWS.
     </p>
 
     <div className="about__skills">
