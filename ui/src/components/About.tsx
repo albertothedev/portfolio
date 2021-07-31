@@ -1,6 +1,5 @@
 import react from "../assets/react.svg";
 import vue from "../assets/vue.svg";
-import angular from "../assets/angular.svg";
 import nodejs from "../assets/nodejs.svg";
 import mongodb from "../assets/mongodb.svg";
 import mysql from "../assets/mysql.svg";
