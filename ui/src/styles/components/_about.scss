@@ -2,6 +2,14 @@
   font-size: 2rem;
   max-width: 1000px;
   margin: 25vh auto 100px auto;
+  background: rgba(white, 0.25);
+  box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
+  backdrop-filter: blur(4px);
+  border-radius: 10px;
+  border: 1px solid rgba(white, 0.18);
+  text-shadow: 0 2px 4px rgba(71, 97, 206, 0.5);
+  padding: 15px;
+  color: white;
 
   &__title {
     text-align: center;
@@ -16,10 +24,16 @@
   &__skills {
     background-color: white;
     display: flex;
-    justify-content: space-around;
+    justify-content: space-between;
     align-items: center;
-    border-radius: 5px;
-    padding: 10px;
+    background: rgba(white, 1);
+    box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
+    backdrop-filter: blur(4px);
+    border-radius: 10px;
+    border: none;
+    text-shadow: 0 2px 4px rgba(71, 97, 206, 0.5);
+    padding: 15px;
+    color: white;
 
     &__skill {
       height: 40px;

@@ -1,9 +1,10 @@
-import React from "react";
+import React, { useState } from "react";
 import ReactDOM from "react-dom";
 
 import About from "./components/About";
 import Projects from "./components/Projects";
 import Contact from "./components/Contact";
+import App from "./App";
 
 import "./styles/main.scss";
 
@@ -16,11 +17,12 @@ library.add(faLinkedin, faGithub, faEnvelopeSquare, faTimesCircle);
 
 ReactDOM.render(
   <React.StrictMode>
-    <div className="app">
+    {/* <div className="app">
       <About />
       <Projects />
       <Contact />
-    </div>
+    </div> */}
+    <App />
   </React.StrictMode>,
   document.getElementById("root")
 );

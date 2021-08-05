@@ -1,11 +1,11 @@
-import { useState } from "react";
-
-import Modal from "./Modal";
-
 import snake from "../assets/snake.png";
 import minesweeper from "../assets/minesweeper.png";
 import loldata from "../assets/loldata.png";
 import taskout from "../assets/taskout.png";
+
+type ProjectsProps = {
+  setSelectedProject: Function;
+};
 
 type TProject = {
   name: "Minesweeper" | "Snake" | "Loldata" | "Taskout";
@@ -15,9 +15,7 @@ type TProject = {
   links: { demo: string | undefined; source: string | undefined };
 };
 
-const Projects = (): JSX.Element => {
-  const [selectedProject, setSelectedProject] = useState<TProject | null>(null);
-
+const Projects = ({ setSelectedProject }: ProjectsProps): JSX.Element => {
   const projects: Array<TProject> = [
     {
       name: "Minesweeper",
@@ -89,15 +87,6 @@ const Projects = (): JSX.Element => {
           )
         )}
       </div>
-
-      {selectedProject && (
-        <Modal
-          longDesc={selectedProject.longDesc}
-          image={selectedProject.image}
-          links={selectedProject.links}
-          onClick={() => setSelectedProject(null)}
-        />
-      )}
     </div>
   );
 };
