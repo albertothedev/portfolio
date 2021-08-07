@@ -70,9 +70,9 @@ const Projects = ({ setSelectedProject }: ProjectsProps): JSX.Element => {
         <h1 className="projects__header__title">Some of my projects</h1>
 
         <p className="projects__header__description">
-          The frontends are stored on S3 buckets and delivered by CloudFront to a custom subdomain. The backends are cloned and built on an EC2
-          instance managed with EBS where they run continuously on different ports. They use Docker for local development which creates containers for
-          the frontend and backend and a database when necessary.
+          They use Docker for local development, which creates containers for the frontend and backend and a database when necessary. The frontends
+          are stored on S3 buckets and delivered by CloudFront to a custom subdomain. The backends are cloned and built on an EC2 instance managed
+          with EBS where they run continuously on different ports.
         </p>
       </div>
 
