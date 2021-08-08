@@ -67,7 +67,7 @@ const Contact = (): JSX.Element => {
           <label htmlFor="email" className="contact__info__email__label">
             Email
           </label>
-          <input type="text" id="email" name="email" className="contact__info__email__input" required />
+          <input type="email" id="email" name="email" className="contact__info__email__input" required />
         </div>
       </div>
 
