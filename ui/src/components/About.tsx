@@ -15,8 +15,8 @@ const About = (): JSX.Element => (
     <h1 className="about__title">Nice to meet you!</h1>
 
     <p className="about__description">
-      I'm a full-stack developer with a passion for learning new things. I build web applications using popular frontend frameworks such as React and
-      Vue, and Node and Express for the backend, with TypeScript across the board. When a database is required, I use MySQL for relational data and
+      I'm a full-stack developer with a passion for learning new things. I build web applications using popular frameworks such as React and Vue for
+      the frontend and Express for the backend, with TypeScript across the board. When a database is required, I use MySQL for relational data and
       MongoDB or Firebase as non-relational alternatives. I containerize all of my apps with Docker to simplify the development process and I deploy
       everything on AWS.
     </p>
