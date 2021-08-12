@@ -17,7 +17,7 @@ const About = (): JSX.Element => (
     <p className="about__description">
       I'm a full-stack developer with a passion for learning new things. I build web applications using popular frameworks such as React and Vue for
       the frontend and Express for the backend, with TypeScript across the board. When a database is required, I use MySQL for relational data and
-      MongoDB or Firebase as non-relational alternatives. I containerize all of my apps with Docker to simplify the development process and I deploy
+      MongoDB or Firebase as non-relational alternatives. I containerize all of my apps with Docker to simplify the development process and deploy
       everything on AWS.
     </p>
 
