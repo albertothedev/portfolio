@@ -1,9 +1,6 @@
-import React, { useState } from "react";
+import React from "react";
 import ReactDOM from "react-dom";
 
-import About from "./components/About";
-import Projects from "./components/Projects";
-import Contact from "./components/Contact";
 import App from "./App";
 
 import "./styles/main.scss";
