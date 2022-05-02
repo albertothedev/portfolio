@@ -1,5 +1,5 @@
 import React from "react";
-import ReactDOM from "react-dom";
+import { createRoot } from "react-dom/client";
 
 import App from "./App";
 
@@ -10,9 +10,13 @@ import { faEnvelopeSquare, faTimesCircle } from "@fortawesome/free-solid-svg-ico
 import { faLinkedin, faGithub } from "@fortawesome/free-brands-svg-icons";
 library.add(faLinkedin, faGithub, faEnvelopeSquare, faTimesCircle);
 
-ReactDOM.render(
+const rootElement = document.getElementById("root");
+if (rootElement === null) throw new Error("Root container missing in index.html");
+
+const root = createRoot(rootElement);
+
+root.render(
   <React.StrictMode>
     <App />
-  </React.StrictMode>,
-  document.getElementById("root")
+  </React.StrictMode>
 );
